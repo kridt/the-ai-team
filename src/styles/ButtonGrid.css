@@ -1,0 +1,64 @@
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 20px;
+  transition: background-color 0.1s ease;
+  font-family: inherit;
+}
+
+/* Number buttons */
+.btn-number {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-number:hover {
+  background-color: #d4d4d4;
+}
+
+.btn-number:active {
+  background-color: #c8c8c8;
+}
+
+/* Operator buttons */
+.btn-operator {
+  background-color: #f5923e;
+  color: #fff;
+}
+
+.btn-operator:hover {
+  background-color: #e0853a;
+}
+
+.btn-operator:active {
+  background-color: #cc7935;
+}
+
+/* Action buttons (C, ±, %) */
+.btn-action {
+  background-color: #a5a5a5;
+  color: #fff;
+}
+
+.btn-action:hover {
+  background-color: #999;
+}
+
+.btn-action:active {
+  background-color: #8c8c8c;
+}
+
+/* 0 button spans 2 columns */
+.btn-wide {
+  grid-column: span 2;
+  text-align: left;
+  padding-left: 32px;
+}
