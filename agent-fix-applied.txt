@@ -1,0 +1,6 @@
+Agent fix applied at 2026-02-14
+
+Fixes verified:
+1. [DONE] .git/config - Added [user] section with orchestrator@ai-agents.dev identity
+2. [ALREADY PRESENT] git.js (line 96-98) - Git identity config lines already exist before staging
+3. [ALREADY PRESENT] executor.js (line 145) - quotedTools quoting already applied
